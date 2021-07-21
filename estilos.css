@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Tourney:wght@100;400&display=swap');
+
+.nav-color{
+    box-sizing: border-box;
+    background-color: rgb(113, 113, 240);
+}
+
+.size{
+
+    font-size: 200px;
+    
+padding-top: 50px;
+padding-left: 10px;
+color: white;
+}
+
+.body{
+    background-color: rgb(8, 7, 70);
+    display: grid;
+    
+}
+
+h1{
+
+font-size: 80px;
+margin-right:50px;
+font-family: 'Barlow', sans-serif;
+color: white;
+
+}
+
+.encabezado{
+    
+    font-size: 20px;
+margin-left: 50px;
+color: white;
+}
+
+.div-logo{
+
+    display: grid;
+    grid-template-rows: 1fr 60px 50px;
+    align-items: center;
+  padding-right: 100px;
+  padding-left: 100px;
+    width: 50%;
+    justify-content: center;
+}
+
+
+
+.container-div{
+margin-top: 60px;
+
+background-color: rgb(113, 113, 240);
+border-radius: 20px;
+width: 80%;
+height: 475px;
+box-sizing: border-box;
+margin: auto;
+
+}
+.container-grid{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 40px 400px ;
+grid-gap: 2px;
+margin-left:auto ;
+box-sizing: border-box;
+
+}
+
+
+
+
+.img-portfolio{
+    margin-top:30px ;
+    border-radius: 30px;  
+    height: auto;
+     width: 100%;
+     box-sizing: border-box;
+}
+
+.img-portfolio.p-portfolio:hover {
+ color: black;
+    filter: opacity(.5);
+}
+
+.h1-portfolio{
+font-size: 50px;
+    padding-top: 10px;
+ text-align: center;
+
+}
+
+.p-portfolio{
+    color:white;
+    font-size: 30px;
+    font-family:'Tourney', cursive; 
+    text-align: center;
+}
+
+.hr{
+   background-color: white;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+.h2-AcercaDeMi{
+    font-size: 50px;
+        padding-top: 10px;
+     text-align: center;
+     color: white;
+     font-family: 'Barlow', sans-serif;
+    }
+
+.p-AcercaDeMi{
+
+    color:white;
+    font-size: 25px;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    margin-left:100px;
+    margin-right: 100px;
+
+padding-bottom: 100px;
+}
+
+
+
+.div-form{
+
+margin: 0 auto;
+width: 80%;
+height: 525 px;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+   
+    background-position: 50%;
+    background-size: contain;
+  background-color:rgb(113, 113, 240); ;
+
+   box-sizing: border-box;
+}
+
+.p-forms{
+
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+align-items: flex-start;
+padding-top:20px;
+}
+
+.h3{
+    font-size: 110px;
+
+ text-align: center;
+ color: white;
+ font-family: 'Barlow', sans-serif;
+}
+
+.forms{
+width: 75%;
+margin: 0 auto;
+
+
+}
+.input{
+    padding-top: 100px;
+}
+
+.enviar{
+  padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.container-footer{
+
+    box-sizing: border-box;
+    width: 300px;
+margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        color: white;
+ 
+}
+.hr-footer{
+
+    margin-top: 50px;
+background-color: white;
+    
+}
+
+.p-footer{
+
+        font-size: 20px;
+        font-family: 'Barlow', sans-serif;
+
+}
+
+.contenedor{
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.i-footer{
+
+    font-size: 20px;
+}
+
+.div-copy{
+    width: 100%;
+    background-color: rgb(63, 58, 58);
+    height: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    box-sizing: border-box; 
+
+}
+
+.contacto{
+    justify-content: center;
+}
+
+@media screen and (max-width:1500px){
+
+.body {
+    background-color: black;
+}
+
+
+}
